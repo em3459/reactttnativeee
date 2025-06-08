@@ -3,14 +3,16 @@ import React from 'react'
 
 const App = () => {
 
-  //js object style-2
+
   return (
+      //js object style-2
     // <SafeAreaView style={{
     //   flex: 1,
     //   justifyContent: 'center',
     //   alignItems: 'center',
     //   backgroundColor: '#f0f0f0',
     // }}></SafeAreaView>
+    //stylesheet style-3
     <SafeAreaView style={styles.container} >
       <Text style= {{backgroundColor: "red" ,/* intext style-1 */
         padding:100,
@@ -36,7 +38,8 @@ const styles = StyleSheet.create({
   text:{
     backgroundColor: "blue" ,
         padding:100,
-        fontSize:10
+        fontSize:10,
+        color:"white"
 
   }
 
