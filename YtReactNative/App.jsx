@@ -1,4 +1,4 @@
-import { StyleSheet, Text,SafeAreaView, Pressable } from 'react-native'
+import { StyleSheet, Text,SafeAreaView, Pressable, Image } from 'react-native'
 import React from 'react'
 
 const App = () => {
@@ -21,10 +21,14 @@ const App = () => {
       }}> 0000000</Text>
       <Text style={styles.text} > 111111111</Text>
 
+      <Image style ={{width:"100%",height:"20%"}} source={{uri:"https://w.wallhaven.cc/full/vq/wallhaven-vqkoz5.png"}}/> 
+      {/*  not> </Image>  */}
+  
+
 
 
       <Pressable style={styles.button}>
-        <Text style={styles.btbutton} >egfw78g</Text>
+        <Text style={styles.btbutton} >33333333333333</Text>
       </Pressable>
      
 
