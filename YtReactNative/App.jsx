@@ -24,7 +24,7 @@ const App = () => {
 
 
       <Pressable style={styles.button}>
-        <Text style={styles.button} >egfw78g</Text>
+        <Text style={styles.btbutton} >egfw78g</Text>
       </Pressable>
      
 
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   container:{
     backgroundColor: "yellow" ,
     height:"100%",
-    weight:"100%"
+    width:"100%"
         
   },
   text:{
@@ -57,7 +57,20 @@ const styles = StyleSheet.create({
   },
   button:{
     backgroundColor:"gray",
-    color:"white"
+  
+    //first width,then color
+    borderWidth:3,
+    borderColor:"black",
+    
+  }
+  btbutton:{
+    flex:1,
+    color:"white",
+    fontWeight:"400",
+    fontSize:100,
+    padding:100,
+    
+
   }
 
 })
