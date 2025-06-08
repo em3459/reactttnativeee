@@ -5,6 +5,12 @@ const App = () => {
 
   //js object style-2
   return (
+    // <SafeAreaView style={{
+    //   flex: 1,
+    //   justifyContent: 'center',
+    //   alignItems: 'center',
+    //   backgroundColor: '#f0f0f0',
+    // }}></SafeAreaView>
     <SafeAreaView style={styles.container} >
       <Text style= {{backgroundColor: "red" ,/* intext style-1 */
         padding:100,
