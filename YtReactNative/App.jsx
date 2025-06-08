@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View,SafeAreaView } from 'react-native'
+import { StyleSheet, Text,style, View,SafeAreaView } from 'react-native'
 import React from 'react'
 
 const App = () => {
@@ -6,7 +6,11 @@ const App = () => {
   //js object style-2
   return (
     <SafeAreaView /* intext style-1 */>
-      <Text>###0000000##</Text>
+      <Text style=
+      {{backgroundColor: "red" ,
+        padding:100,
+        fontSize:100
+      }}> adqadqdqd</Text>
     </SafeAreaView>
     //view-android ios separately
     //safeareaview-android ios auto
