@@ -45,6 +45,10 @@ const App = () => {
 
 export default App
 //stylesheet style-3
+
+
+//why stylesheet..cuz intext object load everytime with app...but stylesheet only 1time load...
+//so app faster
 const styles = StyleSheet.create({
   container:{
     backgroundColor: "yellow" ,
