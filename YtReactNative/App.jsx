@@ -1,11 +1,18 @@
 import { StyleSheet, Text,SafeAreaView, Pressable, Image } from 'react-native'
 import React from 'react'
 
+
+//js object style-2
 const App = () => {
+  const myTextStyle = {
+  backgroundColor: 'silver',
+  padding: 10,
+  fontSize: 16,
+};
 
 
   return (
-    //js object and intext style same almost
+    //js object 
       //js object style-2
     // <SafeAreaView style={{
     //   flex: 1,
@@ -19,6 +26,10 @@ const App = () => {
         padding:100,
         fontSize:10
       }}> 0000000</Text>
+
+
+      {/* //js object style-2 */}
+      <Text style={myTextStyle}>Styled Text</Text>
       <Text style={styles.text} > 111111111</Text>
 
       <Image style ={{width:"100%",height:"20%"}} source={{uri:"https://w.wallhaven.cc/full/vq/wallhaven-vqkoz5.png"}}/> 
@@ -47,7 +58,7 @@ export default App
 //stylesheet style-3
 
 
-//why stylesheet..cuz intext object load everytime with app...but stylesheet only 1time load...
+//why stylesheet..cuz object load everytime with app...but stylesheet only 1time load...inline can use ,but make code dirty
 //so app faster
 const styles = StyleSheet.create({
   container:{
