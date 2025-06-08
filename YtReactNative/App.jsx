@@ -9,9 +9,15 @@ const App = () => {
       <Text style=
       {{backgroundColor: "red" ,
         padding:100,
+        fontSize:10
+      }}> adqadqdqd</Text>
+      <Text style=
+      {{backgroundColor: "blue" ,
+        padding:10,
         fontSize:100
       }}> adqadqdqd</Text>
     </SafeAreaView>
+    
     //view-android ios separately
     //safeareaview-android ios auto
   )
@@ -19,7 +25,9 @@ const App = () => {
 
 export default App
 //stylesheet style-3
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  c
+})
 
 
 
