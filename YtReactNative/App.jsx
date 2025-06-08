@@ -1,13 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,SafeAreaView } from 'react-native'
 import React from 'react'
 
 const App = () => {
 
   //js object style-2
   return (
-    <View /* intext style-1 */>
-      <Text>###ssssss##</Text>
-    </View>
+    <SafeAreaView /* intext style-1 */>
+      <Text>###ssssffffss##</Text>
+    </SafeAreaView>
   )
 }
 
