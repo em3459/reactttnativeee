@@ -61,14 +61,17 @@ const styles = StyleSheet.create({
     //first width,then color
     borderWidth:3,
     borderColor:"black",
+    justifyContent: "center",  // Centers text vertically
+     alignItems: "center"
     
-  }
+  },
   btbutton:{
-    flex:1,
+    // flex:1,
     color:"white",
-    fontWeight:"400",
-    fontSize:100,
-    padding:100,
+    fontWeight:"900",
+    fontSize:50,
+    //padding:10,
+    //textAlign: "center",
     
 
   }
