@@ -5,6 +5,7 @@ const App = () => {
 
 
   return (
+    //js object and intext style same almost
       //js object style-2
     // <SafeAreaView style={{
     //   flex: 1,
