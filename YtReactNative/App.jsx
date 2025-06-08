@@ -5,9 +5,8 @@ const App = () => {
 
   //js object style-2
   return (
-    <SafeAreaView style={styles.container} /* intext style-1 */>
-      <Text style=
-      {{backgroundColor: "red" ,
+    <SafeAreaView style={styles.container} >
+      <Text style= {{backgroundColor: "red" ,/* intext style-1 */
         padding:100,
         fontSize:10
       }}> 0000000</Text>
