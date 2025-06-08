@@ -1,4 +1,4 @@
-import { StyleSheet, Text,SafeAreaView } from 'react-native'
+import { StyleSheet, Text,SafeAreaView, Pressable } from 'react-native'
 import React from 'react'
 
 const App = () => {
@@ -20,6 +20,18 @@ const App = () => {
         fontSize:10
       }}> 0000000</Text>
       <Text style={styles.text} > 111111111</Text>
+
+
+
+      <Pressable style={styles.button}>
+        <Text style={styles.button} >egfw78g</Text>
+      </Pressable>
+     
+
+
+
+
+
     </SafeAreaView>
     
     //view-android ios separately
@@ -42,6 +54,10 @@ const styles = StyleSheet.create({
         fontSize:10,
         color:"white"
 
+  },
+  button:{
+    backgroundColor:"gray",
+    color:"white"
   }
 
 })
