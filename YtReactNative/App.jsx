@@ -6,8 +6,10 @@ const App = () => {
   //js object style-2
   return (
     <SafeAreaView /* intext style-1 */>
-      <Text>###ssssffffss##</Text>
+      <Text>###0000000##</Text>
     </SafeAreaView>
+    //view-android ios separately
+    //safeareaview-android ios auto
   )
 }
 
