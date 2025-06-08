@@ -3,16 +3,16 @@ import React from 'react'
 
 const App = () => {
 
-  //js object 
+  //js object style-2
   return (
-    <View>
+    <View /* intext style-1 */>
       <Text>###ssssss##</Text>
     </View>
   )
 }
 
 export default App
-
+//stylesheet style-3
 const styles = StyleSheet.create({})
 
 
