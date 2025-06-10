@@ -42,7 +42,8 @@ const App = () => {
         <Text style={styles.btbutton} >33333333333333</Text>
       </Pressable>
      
-
+{/* {{object}}
+{styles.container} */}
 
 
 
@@ -62,7 +63,7 @@ export default App
 //so app faster
 const styles = StyleSheet.create({
   container:{
-    backgroundColor: "yellow" ,
+    backgroundColor: "pink" ,
     height:"100%",
     width:"100%"
         
