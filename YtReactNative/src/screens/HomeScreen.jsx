@@ -59,6 +59,54 @@ const data = [
 
 const HomeScreen = () => {
   const [view, setview] = useState(0);  // useState should work now with React import
+  const [data, setdata] = useState([{
+    id: 1,
+    name: "Item 1",
+    stock: 50,
+    unit: "pcs",
+  },
+  {
+    id: 2,
+    name: "Item 2",
+    stock: 20,
+    unit: "pcs",
+  },
+  {
+    id: 3,
+    name: "Item 3",
+    stock: 30,
+    unit: "kg",
+  },
+  {
+    id: 4,
+    name: "Item 4",
+    stock: 40,
+    unit: "liters",
+  },
+  {
+    id: 5,
+    name: "Item 5",
+    stock: 43,
+    unit: "pcs",  // Low stock item
+  },
+  {
+    id: 6,
+    name: "Item 6",
+    stock: 50,
+    unit: "kg",
+  },
+  {
+    id: 7,
+    name: "Item 7",
+    stock: 75,
+    unit: "liters",
+  },
+  {
+    id: 8,
+    name: "Item 8",
+    stock: 55,
+    unit: "pcs",  // Low stock item
+  }])
   return (
     <SafeAreaView style={styles.container}>
       {/* <StatusBar barStyle="dark-content" /> */}
@@ -77,7 +125,7 @@ const HomeScreen = () => {
       {view ===0 && <AllItems data={data} />}
       {/* {view ===1 && <LowStock/>} */}
       {view ===1 && <AllItems data={data.filter((item)=>item.stock<45)}/>}
-      {view ===2 && <CreateScreen/>}
+      {view ===2 && <CreateScreen data={data} setdata={setdata}/>}
     </SafeAreaView>
   );
 };
